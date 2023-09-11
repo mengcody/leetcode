@@ -1,7 +1,7 @@
 class Solution:
     """
     把一个数组，看成两个数组，一个新的数组，一个当前需要遍历的数组，
-    * 遍历旧数组，判断当前遍历到的数组，能不能放到新的数组中
+    * 遍历旧数组，判断当前遍历到的元素，能不能放到新的数组中
     """
     def remove_duplicates(self, nums: list[int]) -> int:
         if len(nums) <= 2:
