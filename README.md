@@ -1,3 +1,27 @@
+# preface
+
+all the question are traverse all the element and do some action when we visit the element.
+
+then it becomes another question: 
+
+* how to traverse all the element?
+
+  * array
+  * linkedlist
+  * tree
+  * graph
+
+* how to traverse all the element with the fast way:
+
+  * dynamic pragraming
+  * greedy algorithm
+  * backtracking algorithm
+  * some other tricks
+
+* how to deal the element which traversed in the way
+
+  * it depends on the question which you are going to solve
+
 # array/string
 
 ## 88. Merge Sorted Array
