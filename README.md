@@ -6,8 +6,9 @@ then it becomes another question:
 
 * how to traverse all the element?
 
-  * array
-  * linkedlist
+  * array/linkedlist： 
+    * from begin to the end or from the end to begin
+    * with two iterator to traverse
   * tree
   * graph
 
@@ -84,3 +85,29 @@ def max_profix(nums):
             max_profit = n - min
     return max_profit
 ```
+
+## 122. Best Time to Buy and Sell Stock II
+
+You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
+
+On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+
+Find and return the maximum profit you can achieve.
+
+## 55. Jump Game
+
+You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
+
+Return true if you can reach the last index, or false otherwise.
+
+## 45. Jump Game II
+
+You are given a 0-indexed array of integers nums of length n. You are initially positioned at nums[0].
+
+Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i], you can jump to any nums[i + j] where:
+
+0 <= j <= nums[i] and
+i + j < n
+Return the minimum number of jumps to reach nums[n - 1]. The test cases are generated such that you can reach nums[n - 1].
+
+ 
