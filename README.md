@@ -110,4 +110,26 @@ Each element nums[i] represents the maximum length of a forward jump from index 
 i + j < n
 Return the minimum number of jumps to reach nums[n - 1]. The test cases are generated such that you can reach nums[n - 1].
 
- 
+## 274. H-Index 
+
+Given an array of integers citations where citations[i] is the number of citations a researcher received for their ith paper, return the researcher's h-index.
+
+According to the definition of h-index on Wikipedia: The h-index is defined as the maximum value of h such that the given researcher has published at least h papers that have each been cited at least h times.
+
+## 380. Insert Delete GetRandom O(1)
+
+Implement the RandomizedSet class:
+
+* RandomizedSet() Initializes the RandomizedSet object.
+* bool insert(int val) Inserts an item val into the set if not present. Returns true if the item was not present, false otherwise.
+* bool remove(int val) Removes an item val from the set if present. Returns true if the item was present, false otherwise.
+* int getRandom() Returns a random element from the current set of elements (it's guaranteed that at least one element exists when this method is called). Each element must have the same probability of being returned.
+* You must implement the functions of the class such that each function works in average O(1) time complexity.
+
+## 238. Product of Array Except Self
+
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+You must write an algorithm that runs in O(n) time and without using the division operation.
