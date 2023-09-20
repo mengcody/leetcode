@@ -184,3 +184,21 @@ Given a string s consisting of words and spaces, return the length of the last w
 A word is a maximal
 substring
 consisting of non-space characters only.
+
+## 14. Longest Common Prefix
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+## 151. Reverse Words in a String
+
+Given an input string s, reverse the order of the words.
+
+A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+
+Return a string of the words in reverse order concatenated by a single space.
+
+Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
+ 
+## 6. Zigzag Conversion
