@@ -199,27 +199,64 @@ A word is defined as a sequence of non-space characters. The words in s will be 
 
 Return a string of the words in reverse order concatenated by a single space.
 
-Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
- 
+Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only
+have a single space separating the words. Do not include any extra spaces.
+
 ## 6. Zigzag Conversion
 
 ## 28. Find the index of the first occurrence in a string
 
-Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle
+is not part of haystack.
 
 ## 29. Text Justification
 
-Given an array of strings words and a width maxWidth, format the text such that each line has exactly maxWidth characters and is fully (left and right) justified.
+Given an array of strings words and a width maxWidth, format the text such that each line has exactly maxWidth
+characters and is fully (left and right) justified.
 
-You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly maxWidth characters.
+You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra
+spaces ' ' when necessary so that each line has exactly maxWidth characters.
 
-Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line does not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
+Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line does not
+divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
 
 For the last line of text, it should be left-justified, and no extra space is inserted between words.
 
 ## 125. Valid Palindrome
 
-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all
+non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and
+numbers.
 
 Given a string s, return true if it is a palindrome, or false otherwise.
 
+## 392. Is Subsequence
+
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the
+characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "
+abcde" while "aec" is not).
+
+## 167. Two Sum II - Input Array Is Sorted
+
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that
+they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <=
+index1 < index2 < numbers.length.
+
+Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+
+The tests are generated such that there is exactly one solution. You may not use the same element twice.
+
+Your solution must use only constant extra space.
+
+## 11. Container With Most Water
+
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the
+ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.
