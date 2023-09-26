@@ -260,3 +260,19 @@ Find two lines that together with the x-axis form a container, such that the con
 Return the maximum amount of water a container can store.
 
 Notice that you may not slant the container.
+
+## 15. 3Sum
+
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k,
+and nums[i] + nums[j] + nums[k] == 0.
+
+Notice that the solution set must not contain duplicate triplets.
+
+## 209. Minimum Size Subarray Sum
+
+Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose
+sum is greater than or equal to target. If there is no such subarray, return 0 instead.
+
+## 3. Longest Substring Without Repeating Characters
+
+Given a string s, find the length of the longest substring without repeating characters.
