@@ -1,5 +1,6 @@
 class Solution:
     def max_area(self, height: list[int]) -> int:
+        # 面积 = 长 * 宽
         max_area = 0
         left = 0
         right = len(height) - 1
