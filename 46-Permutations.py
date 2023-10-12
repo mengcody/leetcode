@@ -4,7 +4,7 @@
 
 
 class Solution:
-    def premute(self, nums):
+    def premute(self, start):
         def backtrack(start):
             # 终止条件
             if start == len(nums):
